@@ -1,23 +1,16 @@
 {
 	"tests": [
 		{
-			"start_test": true,
-			"open":  "somelink.com",
-			"click": "#button56",
-			"take_screenshot": true,
-			"end_test": true
+			"open":  "http://google.fr/",
+			"commands": {
+				"take_screenshot": "google.png"
+			}
 		},
 		{
-			"start_test": true,
-			"open": "somelink.org",
-			"fill": [
-				"input .user-name": "my_great_username",
-				"input .password": "iLikeTurtles"
-			],
-			"click": "#greatLoginBtn",
-			"wait": "5s",
-			"take_screenshot": true,
-			"end_test": true
+			"open": "http://sandbox.sylach.com/admin.php",
+			"commands": {
+				"take_screenshot": "sandbox.png"
+			}
 		}
 	]
 }
